@@ -1,0 +1,631 @@
+[
+  {
+    "id": "sr-react-dev-galific",
+    "title": "Senior React Developer",
+    "company": "Galific Solutions",
+    "companyWebsite": "https://www.galific.com",
+    "location": "Noida, Uttar Pradesh",
+    "workMode": "hybrid",
+    "employmentType": "full-time",
+    "department": "Engineering",
+    "openings": 2,
+    "experience": {
+      "min": 4,
+      "max": 8
+    },
+    "salary": {
+      "min": 1800000,
+      "max": 2800000,
+      "currency": "INR",
+      "period": "year"
+    },
+    "postedAt": "2026-09-22",
+    "applyBy": "2026-10-31",
+    "status": "open",
+    "description": "We are looking for a Senior React Developer to build data-intelligence dashboards used by logistics and real-estate businesses across India.\nYou will own front-end architecture for analytics products, work closely with backend and ML engineers, and ship features that turn complex data into clear decisions.",
+    "responsibilities": [
+      "Build and maintain complex dashboards using React, Next.js and TypeScript",
+      "Design reusable component libraries and state management patterns",
+      "Integrate REST and GraphQL APIs and optimise rendering performance",
+      "Write unit and integration tests with Jest and React Testing Library",
+      "Mentor junior developers and review pull requests"
+    ],
+    "requirements": [
+      "4+ years of professional experience with React and TypeScript",
+      "Strong knowledge of Next.js, server-side rendering and routing",
+      "Experience with Redux Toolkit or React Query",
+      "Solid understanding of HTML, CSS, Tailwind CSS and responsive design",
+      "Experience with Git, CI/CD pipelines and code reviews"
+    ],
+    "niceToHave": [
+      "Data visualisation with D3.js or Recharts",
+      "Experience with Node.js and PostgreSQL",
+      "Exposure to AWS or Docker"
+    ],
+    "skills": [
+      "React",
+      "Next.js",
+      "TypeScript",
+      "JavaScript",
+      "Redux",
+      "React Query",
+      "Tailwind CSS",
+      "Jest",
+      "REST API",
+      "GraphQL",
+      "Git"
+    ],
+    "benefits": [
+      "Health insurance for family",
+      "Flexible hybrid schedule",
+      "Annual learning budget"
+    ],
+    "questions": [
+      {
+        "id": "immediate_joiner",
+        "label": "Are you an immediate joiner?",
+        "type": "yesno",
+        "required": true
+      },
+      {
+        "id": "notice_period",
+        "label": "What is your notice period?",
+        "type": "select",
+        "required": true,
+        "options": [
+          "Serving notice",
+          "15 days",
+          "30 days",
+          "60 days",
+          "90 days"
+        ],
+        "showIf": {
+          "questionId": "immediate_joiner",
+          "equals": "No"
+        }
+      },
+      {
+        "id": "last_working_day",
+        "label": "Last working day",
+        "type": "date",
+        "required": true,
+        "helpText": "As per your resignation acceptance",
+        "showIf": {
+          "questionId": "notice_period",
+          "equals": "Serving notice"
+        }
+      },
+      {
+        "id": "current_ctc",
+        "label": "Current CTC",
+        "type": "currency",
+        "currency": "INR",
+        "unit": "LPA",
+        "required": true,
+        "min": 0,
+        "max": 500
+      },
+      {
+        "id": "expected_ctc",
+        "label": "Expected CTC",
+        "type": "currency",
+        "currency": "INR",
+        "unit": "LPA",
+        "required": true,
+        "min": 0,
+        "max": 500
+      },
+      {
+        "id": "portfolio",
+        "label": "GitHub or portfolio link",
+        "type": "text",
+        "required": false,
+        "placeholder": "https://github.com/..."
+      },
+      {
+        "id": "relocate",
+        "label": "Are you willing to work from Noida office 3 days a week?",
+        "type": "yesno",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": "data-analyst-bi",
+    "title": "Data Analyst (Power BI / SQL)",
+    "company": "Galific Solutions",
+    "companyWebsite": "https://www.galific.com",
+    "location": "Gurugram, Haryana",
+    "workMode": "onsite",
+    "employmentType": "full-time",
+    "department": "Data",
+    "openings": 1,
+    "experience": {
+      "min": 2,
+      "max": 5
+    },
+    "salary": {
+      "min": 800000,
+      "max": 1400000,
+      "currency": "INR",
+      "period": "year"
+    },
+    "postedAt": "2026-09-20",
+    "status": "open",
+    "description": "Join our data team to turn raw sales, logistics and operations data into dashboards and insights for mid-sized enterprises.\nYou will write SQL, build Power BI and Looker Studio reports and present findings directly to client stakeholders.",
+    "responsibilities": [
+      "Write complex SQL queries on PostgreSQL and BigQuery",
+      "Build Power BI and Looker Studio dashboards",
+      "Clean and transform data using Python and Pandas",
+      "Define KPIs with business stakeholders and automate recurring reports"
+    ],
+    "requirements": [
+      "2+ years of experience in data analysis",
+      "Strong SQL skills including joins, window functions and CTEs",
+      "Hands-on Power BI experience with DAX",
+      "Working knowledge of Python, Pandas and Excel",
+      "Good communication and stakeholder management skills"
+    ],
+    "niceToHave": [
+      "Google Analytics (GA4) experience",
+      "Statistics and A/B testing"
+    ],
+    "skills": [
+      "SQL",
+      "Power BI",
+      "DAX",
+      "Python",
+      "Pandas",
+      "Excel",
+      "BigQuery",
+      "Looker Studio",
+      "Data Visualization",
+      "Statistics"
+    ],
+    "questions": [
+      {
+        "id": "immediate_joiner",
+        "label": "Are you an immediate joiner?",
+        "type": "yesno",
+        "required": true
+      },
+      {
+        "id": "notice_period",
+        "label": "What is your notice period?",
+        "type": "select",
+        "required": true,
+        "options": [
+          "Serving notice",
+          "15 days",
+          "30 days",
+          "60 days",
+          "90 days"
+        ],
+        "showIf": {
+          "questionId": "immediate_joiner",
+          "equals": "No"
+        }
+      },
+      {
+        "id": "last_working_day",
+        "label": "Last working day",
+        "type": "date",
+        "required": true,
+        "helpText": "As per your resignation acceptance",
+        "showIf": {
+          "questionId": "notice_period",
+          "equals": "Serving notice"
+        }
+      },
+      {
+        "id": "current_ctc",
+        "label": "Current CTC",
+        "type": "currency",
+        "currency": "INR",
+        "unit": "LPA",
+        "required": true,
+        "min": 0,
+        "max": 500
+      },
+      {
+        "id": "expected_ctc",
+        "label": "Expected CTC",
+        "type": "currency",
+        "currency": "INR",
+        "unit": "LPA",
+        "required": true,
+        "min": 0,
+        "max": 500
+      },
+      {
+        "id": "tools_rating",
+        "label": "Rate your Power BI expertise",
+        "type": "select",
+        "required": true,
+        "options": [
+          "Beginner",
+          "Intermediate",
+          "Advanced",
+          "Expert"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ml-engineer-nlp",
+    "title": "Machine Learning Engineer (NLP / LLM)",
+    "company": "Aarvy Labs",
+    "location": "Bengaluru, Karnataka",
+    "workMode": "remote",
+    "employmentType": "full-time",
+    "department": "AI",
+    "openings": 1,
+    "experience": {
+      "min": 3,
+      "max": 7
+    },
+    "salary": {
+      "min": 2500000,
+      "max": 4000000,
+      "currency": "INR",
+      "period": "year"
+    },
+    "postedAt": "2026-09-24",
+    "status": "open",
+    "description": "We are building LLM-powered products for automation of business workflows. You will fine-tune, evaluate and deploy language models and retrieval pipelines to production.",
+    "responsibilities": [
+      "Build RAG pipelines using LangChain and vector databases",
+      "Fine-tune and evaluate transformer models with PyTorch and Hugging Face",
+      "Deploy models as APIs using FastAPI, Docker and Kubernetes",
+      "Monitor model quality and latency in production"
+    ],
+    "requirements": [
+      "3+ years building machine learning systems in production",
+      "Strong Python, PyTorch and scikit-learn skills",
+      "Experience with LLMs, prompt engineering and embeddings",
+      "Experience with MLOps: Docker, CI/CD, model monitoring",
+      "Solid understanding of NLP fundamentals"
+    ],
+    "niceToHave": [
+      "Experience with AWS SageMaker or GCP Vertex AI",
+      "Publications or open-source contributions"
+    ],
+    "skills": [
+      "Python",
+      "PyTorch",
+      "Machine Learning",
+      "NLP",
+      "LLM",
+      "LangChain",
+      "Hugging Face",
+      "FastAPI",
+      "Docker",
+      "Kubernetes",
+      "MLOps",
+      "Vector Database"
+    ],
+    "questions": [
+      {
+        "id": "immediate_joiner",
+        "label": "Are you an immediate joiner?",
+        "type": "yesno",
+        "required": true
+      },
+      {
+        "id": "notice_period",
+        "label": "What is your notice period?",
+        "type": "select",
+        "required": true,
+        "options": [
+          "Serving notice",
+          "15 days",
+          "30 days",
+          "60 days",
+          "90 days"
+        ],
+        "showIf": {
+          "questionId": "immediate_joiner",
+          "equals": "No"
+        }
+      },
+      {
+        "id": "last_working_day",
+        "label": "Last working day",
+        "type": "date",
+        "required": true,
+        "helpText": "As per your resignation acceptance",
+        "showIf": {
+          "questionId": "notice_period",
+          "equals": "Serving notice"
+        }
+      },
+      {
+        "id": "current_ctc",
+        "label": "Current CTC",
+        "type": "currency",
+        "currency": "INR",
+        "unit": "LPA",
+        "required": true,
+        "min": 0,
+        "max": 500
+      },
+      {
+        "id": "expected_ctc",
+        "label": "Expected CTC",
+        "type": "currency",
+        "currency": "INR",
+        "unit": "LPA",
+        "required": true,
+        "min": 0,
+        "max": 500
+      },
+      {
+        "id": "llm_projects",
+        "label": "Briefly describe an LLM project you shipped to production",
+        "type": "textarea",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": "node-backend-dev",
+    "title": "Backend Developer (Node.js)",
+    "company": "Propviewz",
+    "location": "Delhi NCR",
+    "workMode": "hybrid",
+    "employmentType": "full-time",
+    "department": "Engineering",
+    "experience": {
+      "min": 2,
+      "max": 5
+    },
+    "salary": {
+      "min": 1000000,
+      "max": 1800000,
+      "currency": "INR",
+      "period": "year"
+    },
+    "postedAt": "2026-09-18",
+    "status": "open",
+    "description": "Propviewz processes thousands of government property records every day. We need a backend developer to scale our data pipeline and public APIs.",
+    "responsibilities": [
+      "Design and build REST APIs with Node.js and Express",
+      "Build scraping and ETL jobs with queues (BullMQ / Redis)",
+      "Model data in PostgreSQL and MongoDB and optimise queries",
+      "Deploy services on AWS using Docker"
+    ],
+    "requirements": [
+      "2+ years with Node.js and TypeScript",
+      "Strong PostgreSQL knowledge",
+      "Experience with Redis and message queues",
+      "Understanding of microservices and API security"
+    ],
+    "skills": [
+      "Node.js",
+      "Express",
+      "TypeScript",
+      "PostgreSQL",
+      "MongoDB",
+      "Redis",
+      "AWS",
+      "Docker",
+      "REST API",
+      "Microservices"
+    ],
+    "questions": [
+      {
+        "id": "immediate_joiner",
+        "label": "Are you an immediate joiner?",
+        "type": "yesno",
+        "required": true
+      },
+      {
+        "id": "notice_period",
+        "label": "What is your notice period?",
+        "type": "select",
+        "required": true,
+        "options": [
+          "Serving notice",
+          "15 days",
+          "30 days",
+          "60 days",
+          "90 days"
+        ],
+        "showIf": {
+          "questionId": "immediate_joiner",
+          "equals": "No"
+        }
+      },
+      {
+        "id": "last_working_day",
+        "label": "Last working day",
+        "type": "date",
+        "required": true,
+        "helpText": "As per your resignation acceptance",
+        "showIf": {
+          "questionId": "notice_period",
+          "equals": "Serving notice"
+        }
+      },
+      {
+        "id": "current_ctc",
+        "label": "Current CTC",
+        "type": "currency",
+        "currency": "INR",
+        "unit": "LPA",
+        "required": true,
+        "min": 0,
+        "max": 500
+      },
+      {
+        "id": "expected_ctc",
+        "label": "Expected CTC",
+        "type": "currency",
+        "currency": "INR",
+        "unit": "LPA",
+        "required": true,
+        "min": 0,
+        "max": 500
+      }
+    ]
+  },
+  {
+    "id": "digital-marketing-exec",
+    "title": "Digital Marketing Executive",
+    "company": "Clanner.AI",
+    "location": "Remote (India)",
+    "workMode": "remote",
+    "employmentType": "full-time",
+    "department": "Marketing",
+    "experience": {
+      "min": 1,
+      "max": 3
+    },
+    "salary": {
+      "min": 400000,
+      "max": 700000,
+      "currency": "INR",
+      "period": "year"
+    },
+    "postedAt": "2026-09-15",
+    "status": "open",
+    "description": "Plan and execute performance and social media campaigns for a fast-growing SaaS product for professionals.",
+    "responsibilities": [
+      "Run Google Ads and Meta Ads campaigns",
+      "Plan LinkedIn and Instagram content calendars",
+      "Track funnels in Google Analytics (GA4)",
+      "Do SEO keyword research and on-page optimisation"
+    ],
+    "requirements": [
+      "1+ years in digital marketing",
+      "Hands-on with Google Ads, Meta Ads and GA4",
+      "Good written English and copywriting skills",
+      "Basic understanding of SEO"
+    ],
+    "skills": [
+      "Google Ads",
+      "Meta Ads",
+      "SEO",
+      "Google Analytics",
+      "Social Media Marketing",
+      "Copywriting",
+      "Content Marketing"
+    ],
+    "questions": [
+      {
+        "id": "immediate_joiner",
+        "label": "Are you an immediate joiner?",
+        "type": "yesno",
+        "required": true
+      },
+      {
+        "id": "notice_period",
+        "label": "What is your notice period?",
+        "type": "select",
+        "required": true,
+        "options": [
+          "Serving notice",
+          "15 days",
+          "30 days",
+          "60 days",
+          "90 days"
+        ],
+        "showIf": {
+          "questionId": "immediate_joiner",
+          "equals": "No"
+        }
+      },
+      {
+        "id": "last_working_day",
+        "label": "Last working day",
+        "type": "date",
+        "required": true,
+        "helpText": "As per your resignation acceptance",
+        "showIf": {
+          "questionId": "notice_period",
+          "equals": "Serving notice"
+        }
+      },
+      {
+        "id": "expected_ctc",
+        "label": "Expected CTC",
+        "type": "currency",
+        "currency": "INR",
+        "unit": "LPA",
+        "required": true,
+        "min": 0,
+        "max": 500
+      }
+    ]
+  },
+  {
+    "id": "frontend-intern",
+    "title": "Frontend Developer Intern",
+    "company": "Galific Solutions",
+    "companyWebsite": "https://www.galific.com",
+    "location": "Noida, Uttar Pradesh",
+    "workMode": "onsite",
+    "employmentType": "internship",
+    "department": "Engineering",
+    "openings": 3,
+    "experience": {
+      "min": 0,
+      "max": 1
+    },
+    "salary": {
+      "min": 15000,
+      "max": 25000,
+      "currency": "INR",
+      "period": "month"
+    },
+    "postedAt": "2026-09-10",
+    "applyBy": "2026-10-15",
+    "status": "open",
+    "description": "A 6-month internship for students or fresh graduates who want to learn production React development on real client projects.",
+    "responsibilities": [
+      "Build UI components in React",
+      "Fix bugs and write tests",
+      "Participate in code reviews and stand-ups"
+    ],
+    "requirements": [
+      "Good knowledge of HTML, CSS and JavaScript",
+      "Basic React knowledge",
+      "Familiarity with Git"
+    ],
+    "skills": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Git"
+    ],
+    "questions": [
+      {
+        "id": "graduation_year",
+        "label": "Year of graduation",
+        "type": "number",
+        "required": true,
+        "min": 2020,
+        "max": 2030
+      },
+      {
+        "id": "college",
+        "label": "College / University",
+        "type": "text",
+        "required": true
+      },
+      {
+        "id": "start_date",
+        "label": "Earliest start date",
+        "type": "date",
+        "required": true
+      },
+      {
+        "id": "duration_ok",
+        "label": "Are you available for the full 6 months?",
+        "type": "yesno",
+        "required": true
+      }
+    ]
+  }
+]
